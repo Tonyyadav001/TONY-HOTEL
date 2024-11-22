@@ -1,0 +1,343 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.8em;
+}
+#navbar {
+  background-color: #333;
+  color: aliceblue;
+  overflow: auto;
+  position: sticky;
+  top: 0%;
+}
+#container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 10px;
+}
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+  padding: 20px;
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+#navbar ul li a {
+  text-decoration: none;
+  color: rgb(14, 14, 15);
+  color: aliceblue;
+  text-align: center;
+  padding: 21px;
+}
+#navbar ul li a:hover {
+  color: rgb(240, 100, 50);
+  background-color: #7f7979;
+  font-size: large;
+}
+#navbar ul li a.current,
+a.current2,
+a.current3 {
+  color: rgb(242, 99, 47);
+  background-color: #7f7979;
+  font-size: large;
+}
+
+#navbar ul li a.current2 {
+  color: rgb(242, 99, 47);
+  background-color: #7f7979;
+  font-size: large;
+}
+
+#navbar ul li a.current3 {
+  color: rgb(242, 99, 47);
+  background-color: #7f7979;
+  font-size: large;
+}
+
+/* showcase styles */
+
+#showcase {
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(../img/pexels-heyho-8135286.jpg) center;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: min-content;
+
+  /*  */
+}
+.content {
+  color: aliceblue;
+  text-align: center;
+  padding-top: 300px;
+}
+.para {
+  font-size: large;
+  line-height: 1.2em;
+  padding: 20px 0px;
+}
+.content h2 {
+  font-size: 50px;
+  line-height: 1.2em;
+}
+.text-primary {
+  color: orange;
+}
+.btn {
+  background-color: rgb(9, 110, 9);
+  padding: 10px;
+  border-radius: 5%;
+  display: inline-block;
+  border: none;
+}
+.btn:hover {
+  background: rgb(8, 85, 8);
+}
+
+/* HOME-INFO */
+#home-info {
+  height: 400px;
+}
+#home-info .info-img {
+  width: 50%;
+  float: left;
+
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(../img/pexels-njeromin-15506669.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100%;
+}
+
+.info-content {
+  float: right;
+  width: 50%;
+  text-align: center;
+  height: 100%;
+  padding: 50px 30px;
+  overflow: hidden;
+  background-color: black;
+  color: aliceblue;
+}
+.btn-light {
+  background-color: rgb(229, 228, 224);
+  padding: 10px 15px;
+  border-radius: 5%;
+  display: inline-block;
+  border: none;
+  color: black;
+  margin-top: 5px;
+}
+.btn-light:hover {
+  background: rgb(225, 197, 126);
+}
+/* section-feature */
+
+.box {
+  width: 33.3%;
+  float: left;
+  text-align: center;
+  line-height: 1.8;
+  padding: 20px;
+}
+.box i {
+  margin-bottom: 10px;
+  color: rgb(175, 168, 168);
+}
+.box h3 {
+  color: orange;
+}
+.box1 {
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(../img/pexels-manuel-barros-1263073-2403017.jpg) no-repeat center;
+  background-size: cover;
+  color: aliceblue;
+}
+
+.box2 {
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(../img/pexels-naimbic-2291599.jpg) no-repeat center;
+  background-size: cover;
+  color: aliceblue;
+}
+.box3 {
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(../img/pexels-anastasia-shuraeva-4944435.jpg) no-repeat center;
+  background-size: cover;
+  color: aliceblue;
+}
+
+/* 2nd page about hotel tony */
+
+#aboutsec {
+  padding: 20px 50px;
+  text-align: center;
+  min-height: 300px;
+  overflow: hidden;
+}
+#secone {
+  width: 70%;
+  float: left;
+  text-align: justify;
+  display: block;
+  min-height: 100%;
+}
+#sectwo {
+  width: 30%;
+  float: right;
+  min-height: 100%;
+}
+.secimg {
+  width: 90%;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+  max-height: 260px;
+}
+
+#clr {
+  clear: both;
+
+  /* bottom  */
+}
+.sech1 {
+  color: aliceblue;
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 30px;
+}
+.secbox {
+  background-color: rgb(241, 169, 80);
+  margin-bottom: 40px;
+  padding: 25px;
+  opacity: 0.9;
+}
+
+#secmain {
+  background: url(../img/pexels-orlovamaria-4916129.jpg) no-repeat center center;
+  background-size: cover;
+  border: 2px solid;
+  margin-top: 5px;
+  padding: 40px;
+}
+.pa {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  line-height: 1.1;
+}
+.iimg {
+  width: 100px;
+  float: left;
+  margin-left: 20px;
+  border-radius: 50%;
+  padding-bottom: 5px;
+}
+
+/* contact-page */
+
+#contact {
+  padding: 30px 100px;
+  margin: 1% 5%;
+}
+#contact h2 {
+  font-size: 40px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 3px;
+}
+#contact p {
+  line-height: 1.8em;
+  font-size: 16px;
+}
+.contactmainsec {
+ 
+  padding: 5px;
+}
+
+label {
+  color: rgb(68, 64, 64);
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #ddd;
+}
+
+.btns {
+ 
+  display: block;
+  font-size: large;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px 15px;
+  /* background: rgb(120, 241, 237); */
+  background-color:  #9a9898;;
+  margin-top: 20px;
+  margin: auto;
+  border-radius: 5px;
+  border: none;
+}
+.btns:hover {
+  background-color: rgb(82, 85, 85);
+ 
+}
+
+.endbox {
+  background-color: #666262;
+  padding: 10px 40px;
+  width: 33.3%;
+  float: left;
+  text-align: center;
+  line-height: 1.8;
+  padding: 28px;
+}
+
+/* footer  */
+footer {
+  clear: both;
+  text-align: center;
+  background-color: #333;
+  color: aliceblue;
+  padding: 10px;
+}
